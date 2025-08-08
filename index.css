@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(bodyBackground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 100%;
+    background: url(main-logo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    animation: logoColor 5s ease-in-out infinite both;
+}
+.displayContainer {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 3px;
+    bottom: 60px;
+    height: 280px;
+    background: rgba(41, 72, 109, 0.61);
+    backdrop-filter: blur(10px);
+}
+.display {
+    position: relative;
+    bottom: 5px;
+    margin-top: 9px;
+   
+}
+.VATnaira, .packagePrice, .payTotal {
+    border: solid 3px;
+    border-radius: 10px;
+    height: 50px;
+    width: 330px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: x-large;
+    background: black;
+    color: #0A17AE;
+}
+.valueInputs {
+    border: solid 4px #F5D042;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    width: 380px;
+    height: 320px;
+    padding-bottom: 60px;
+    background: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+}
+
+label {
+    position: relative;
+    bottom: -20px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+input {
+    border: solid 3px green;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 700;
+    height: 40px;
+    outline: none;
+    background: black;
+    color: #ffffff;
+}
+
+.convertBtn {
+    border: solid 3px rgb(4, 52, 155);
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: x-large;
+    font-family: cursive;
+    background: rgb(54, 54, 224);
+    color: #fff;
+    letter-spacing: 2px;
+}
+.reloadBtn {
+    border-radius: 10px;
+    border: solid 3px #F5D042;
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    color: #F5D042;
+    background: #0A17AE;
+}
+
+
+/*KEYFRAMES*/
+@keyframes logoColor {
+    10% {color: gold;}
+    30% {color: blue;}
+    50% {color: black;}
+    70% {color: rgb(156, 146, 146);}
+    90% {color: rgb(70, 70, 248);}
+}
+
+
