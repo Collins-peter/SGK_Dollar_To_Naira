@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -142,3 +143,266 @@ input {
 }
 
 
+=======
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+.firstContainer {
+    box-shadow: 2px 2px 15px rgb(9, 39, 9);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+    border-radius: 20px;
+    position: absolute;
+    background: rgba(169, 240, 169, 0.205);
+}
+.firstContainer .logo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    border: solid 3px red;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.logo button {
+    width: 130px;
+    font-size: larger;
+    padding: 10px 10px;
+    background: rgb(11, 82, 32);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.logo button:hover {
+    transform: scale(1.1);
+}
+.firstContainer p {
+    font-size: x-large;
+    color: green;
+}
+.firstContainer form {
+    padding: 8px 20px;
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.valueInputs label{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(35, 82, 35);
+    margin-top: 10px;
+    position: relative;
+    top: 15px;
+}
+.valueInputs input{
+    width: 90%;
+    height: 30px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: solid 1px rgb(7, 32, 7);
+    outline: none;
+    color: #000;
+}
+.valueInputs .submitBtn {
+    width: 90%;
+    height: 25px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgb(1, 46, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.valueInputs .submitBtn:hover {
+    transform: scale(1.1);
+}
+
+
+.firstContainer .displayContainer {
+    border: solid 1px gold;
+    border-radius: 10px;
+    width: 60%;
+    min-width: 300px;
+    padding: 8px 20px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.displayContainer label {
+    font-size: larger;
+    color: green;
+}
+.displayContainer div {
+    width: 90%;
+    height: 30px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: solid 1px red;
+    outline: none;
+    color: #000;
+   
+}
+
+/*PAYMENT IN DOLLAR CSS DESIGN/////////////////*/
+.secondContainer {
+    box-shadow: 2px 2px 15px rgb(9, 39, 9);
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0;
+    border-radius: 20px;
+    transform: rotateY(90deg);
+    background: rgba(169, 240, 169, 0.205);
+}
+.secondContainer .logo2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo2 img {
+    border: solid 3px red;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background: green;
+}
+.logo2 button {
+    width: 130px;
+    font-size: larger;
+    padding: 10px 10px;
+    background: rgb(11, 82, 32);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.logo2 button:hover {
+    transform: scale(1.1);
+}
+.secondContainer p {
+    font-size: x-large;
+    color: green;
+}
+.secondContainer form {
+    padding: 8px 20px;
+    margin-top: 1%;
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dollarInput label {
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(35, 82, 35);
+    margin-top: 10px; 
+}
+.dollarInput input {
+    width: 90%;
+    height: 30px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: solid 1px rgb(7, 32, 7);
+    outline: none;
+    color: #000;
+}
+.dollarInput .submitBtn {
+    width: 90%;
+    height: 25px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgb(1, 46, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.dollarInput .submitBtn:hover {
+    transform: scale(1.1);
+}
+
+.secondContainer .displayPart {
+    border: solid 1px gold;
+    border-radius: 10px;
+    width: 60%;
+    min-width: 300px;
+    padding: 8px 20px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.displayPart label {
+    font-size: larger;
+    color: green;
+}
+.displayPart div {
+    width: 90%;
+    height: 30px;
+    padding: 10px 15px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: solid 1px red;
+    outline: none;
+    color: #000;
+}
+
+
+/*KEYFRAMES*/
+@keyframes turnAnim {
+    from {transform: rotateY(0);}
+    to {transform: rotateY(-90deg);}
+}
+
+@media (max-width:600px) {
+    .firstContainer, .secondContainer {
+        width: 90%;
+    }
+}
+>>>>>>> ad8b3da (Updated project files)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,4 +45,70 @@
     </div>
 </body>
 <script src="index.js"></script>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTING TO NAIRA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="firstContainer">
+        <div class="logo">
+            <img src="Logo Image.jpg" alt="">
+            <button onclick="firstTurn()">To Dollar</button>
+        </div>
+        <p class="title">PAYMENT IN NAIRA</p>
+
+        <form class="valueInputs" onsubmit="convert()">
+            <label for="inputDollar">AMOUNT IN USD</label><br>
+            <input class="inputDollar" type="number" name="dollar" placeholder="Input Dollar">
+
+            <label for="exchangeRate">CURRENT EXCHANGE RATE</label><br>
+            <input class="exchangeRate" type="number" name="Exchange rate" placeholder="Exchange Rate">
+
+            <span class="submitBtn" onclick="convert()">SUBMIT</span>
+        </form>
+
+        <div class="displayContainer">
+            <label for="packagePrice" class="display">PACKAGE PRICE</label>
+            <div class="packagePrice"></div>
+
+            <label for="VATnaira" class="display">VAT IN NAIRA</label>
+            <div class="VATnaira"></div> 
+
+            <label for="payTotal" class="display">TOTAL AMOUNT</label>
+            <div class="payTotal"></div>     
+        </div>
+    </div>
+
+    <div class="secondContainer">
+        <div class="logo2">
+            <img src="Logo Image.jpg" >
+            <button onclick="secondTurn()">To Naira</button>
+        </div>
+        <p class="title">PAYMENT IN DOLLAR</p>
+
+        <form class="dollarInput">
+            <label for="dollarPay">ENTER DOLLAR</label>
+            <input type="number" class="dollarPay" placeholder="Input Dollar">
+
+            <span class="submitBtn" onclick="submit()">SUBMIT</span>
+        </form>
+
+        <div class="displayPart">
+            <label for="VATdollar">VAT IN DOLLAR</label>
+            <div class="VATdollar"></div>
+
+            <label for="dollarTotal">TOTAL AMOUNT</label>
+            <div class="dollarTotal"></div>
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+>>>>>>> ad8b3da (Updated project files)
 </html>
